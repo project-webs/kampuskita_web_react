@@ -1,0 +1,72 @@
+<!doctype html>
+<!--
+  TEMPLATE GAMBAR PRATINJAU (Open Graph) — 1200x630
+  Regenerasi:
+    google-chrome --headless --disable-gpu --no-sandbox --window-size=1200,630 \
+      --virtual-time-budget=8000 --screenshot=public/og-image.png docs/og-template.html
+-->
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { width: 1200px; height: 630px; overflow: hidden; font-family: 'Inter', sans-serif; }
+      .frame {
+        position: relative;
+        width: 1200px;
+        height: 630px;
+        padding: 64px 72px;
+        background:
+          radial-gradient(700px 360px at 92% -8%, rgba(131, 196, 31, 0.28), transparent 60%),
+          radial-gradient(600px 340px at -6% 110%, rgba(77, 122, 232, 0.35), transparent 60%),
+          #0b2b89;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .brand { display: flex; align-items: center; gap: 22px; }
+      .brand img { height: 96px; background: #fff; padding: 14px 20px; border-radius: 18px; }
+      .brand .name { line-height: 1.05; }
+      .brand .name strong { display: block; font-size: 30px; font-weight: 800; letter-spacing: 0.04em; }
+      .brand .name span { display: block; font-size: 38px; font-weight: 900; letter-spacing: 0.16em; }
+      h1 { font-size: 74px; font-weight: 800; letter-spacing: -0.03em; line-height: 1.04; max-width: 17ch; }
+      h1 em { font-style: normal; color: #b9e469; }
+      .foot { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+      .sub { font-size: 27px; font-weight: 500; color: rgba(255, 255, 255, 0.85); }
+      .tag {
+        background: #83c41f;
+        color: #04143f;
+        font-size: 24px;
+        font-weight: 800;
+        padding: 16px 34px;
+        border-radius: 999px;
+        white-space: nowrap;
+      }
+      .line { position: absolute; left: 0; right: 0; bottom: 0; height: 12px; background: #83c41f; }
+    </style>
+  </head>
+  <body>
+    <div class="frame">
+      <div class="brand">
+        <img src="../public/images/logo-kita.webp" alt="Logo KITA" />
+        <div class="name">
+          <strong>KULIAH ISLAM</strong>
+          <span>ABU DZAR</span>
+        </div>
+      </div>
+      <h1>Kuliah Islam Terbuka untuk <em>Semua Kalangan</em></h1>
+      <div class="foot">
+        <div class="sub">S1 Pendidikan Agama Islam (PAI) &amp; S1 Pendidikan Guru Madrasah Ibtidaiyah (PGMI)</div>
+        <div class="tag">Daftar Semester Genap 2026/2027</div>
+      </div>
+      <div class="line"></div>
+    </div>
+  </body>
+</html>
