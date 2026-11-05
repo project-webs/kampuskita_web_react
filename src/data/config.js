@@ -61,7 +61,7 @@ export const MAPS_LINK =
 // Berkas flyer (acuan utama). Ganti berkas di /public saat PDF final datang,
 // nama berkas memakai "Kuliah Islam Abu Dzar" (tanpa Takhassus).
 export const FLYER = {
-  url: '/Flyer-Pendaftaran-Kuliah-Islam-Abu-Dzar-Semester-Genap-2026-2027.pdf',
+  url: 'Flyer-Pendaftaran-Kuliah-Islam-Abu-Dzar-Semester-Genap-2026-2027.pdf',
   label: 'Flyer Pendaftaran Semester Genap 2026/2027',
   note: 'Informasi pendaftaran, biaya, rekening, dan QR pendaftaran.',
 }

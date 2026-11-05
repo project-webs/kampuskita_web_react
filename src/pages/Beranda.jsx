@@ -64,7 +64,7 @@ export default function Beranda() {
             />
             <img
               className="ornament"
-              src="/images/study-ornament.webp"
+              src="images/study-ornament.webp"
               alt=""
               aria-hidden="true"
               width={320}
@@ -272,7 +272,7 @@ export default function Beranda() {
           <div className="cta with-qr">
             <DaftarLink className="cta-qr" aria-label="Buka formulir pendaftaran">
               <img
-                src="/images/qr-pendaftaran.webp"
+                src="images/qr-pendaftaran.webp"
                 alt="QR code pendaftaran Kuliah Islam Abu Dzar"
                 width={150}
                 height={150}

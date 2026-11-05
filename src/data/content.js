@@ -22,8 +22,8 @@ export const HERO = {
   title: 'Kuliah Islam Terbuka untuk Semua Kalangan.',
   subtitle:
     'Lulusan SMA, guru, karyawan, ibu rumah tangga, hingga pensiunan: raih gelar S.Pd. sambil tetap beraktivitas.',
-  image: '/images/hero-person-900.webp',
-  imageSrcSet: '/images/hero-person-480.webp 480w, /images/hero-person-900.webp 800w',
+  image: 'images/hero-person-900.webp',
+  imageSrcSet: 'images/hero-person-480.webp 480w, /images/hero-person-900.webp 800w',
   imageAlt:
     'Ilustrasi mahasiswa berpakaian putih memegang tumpukan buku — Kuliah Islam Abu Dzar',
 }
@@ -106,17 +106,17 @@ export const REKENING = {
   bank: 'BSI',
   number: '701 499 1788',
   holder: 'Yayasan Abu Dzar',
-  qrImage: '/images/qr-pendaftaran.webp',
+  qrImage: 'images/qr-pendaftaran.webp',
   qrCaption: 'QR Pendaftaran — pindai untuk membuka formulir (sesuai flyer).',
 }
 
 export const DOSEN = [
-  { name: 'Ust. Dr. Makmur Dongoran, Lc.', field: 'Filsafat', alma: 'Menyusul', photo: '/images/dosen-1.svg' },
-  { name: 'Ust. Risanugroho Putra Sahidin, S.Pd., M.Pd.', field: 'Bahasa Arab & Bahasa Indonesia', alma: 'Menyusul', photo: '/images/dosen-2.svg' },
-  { name: 'Ust. Andriansyah Putra, Lc., M.H.', field: 'Sirah Nabawiyah & Studi Islam', alma: 'Menyusul', photo: '/images/dosen-3.svg' },
-  { name: 'Ust. Yahya, B.A., M.Pd., Gr.', field: 'Ilmu Quran', alma: 'Menyusul', photo: '/images/dosen-4.svg' },
-  { name: 'Ust. Mohamad Farid, S.S.', field: 'Bahasa Inggris', alma: 'Menyusul', photo: '/images/dosen-5.svg' },
-  { name: 'Ust. Ahmad Rifai Zebua, S.Sos., M.Pd., Gr.', field: 'Perencanaan Konselor', alma: 'Menyusul', photo: '/images/dosen-6.svg' },
+  { name: 'Ust. Dr. Makmur Dongoran, Lc.', field: 'Filsafat', alma: 'Menyusul', photo: 'images/dosen-1.svg' },
+  { name: 'Ust. Risanugroho Putra Sahidin, S.Pd., M.Pd.', field: 'Bahasa Arab & Bahasa Indonesia', alma: 'Menyusul', photo: 'images/dosen-2.svg' },
+  { name: 'Ust. Andriansyah Putra, Lc., M.H.', field: 'Sirah Nabawiyah & Studi Islam', alma: 'Menyusul', photo: 'images/dosen-3.svg' },
+  { name: 'Ust. Yahya, B.A., M.Pd., Gr.', field: 'Ilmu Quran', alma: 'Menyusul', photo: 'images/dosen-4.svg' },
+  { name: 'Ust. Mohamad Farid, S.S.', field: 'Bahasa Inggris', alma: 'Menyusul', photo: 'images/dosen-5.svg' },
+  { name: 'Ust. Ahmad Rifai Zebua, S.Sos., M.Pd., Gr.', field: 'Perencanaan Konselor', alma: 'Menyusul', photo: 'images/dosen-6.svg' },
 ]
 
 export const KALENDER = {

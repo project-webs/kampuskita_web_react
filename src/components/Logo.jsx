@@ -10,7 +10,7 @@ export default function Logo() {
   return (
     <>
       <img
-        src="/images/logo-kita.webp"
+        src="images/logo-kita.webp"
         alt={`Logo ${CAMPUS_NAME_UPPER}`}
         className="logo-mark"
         width={64}
