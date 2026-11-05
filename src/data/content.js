@@ -23,7 +23,7 @@ export const HERO = {
   subtitle:
     'Lulusan SMA, guru, karyawan, ibu rumah tangga, hingga pensiunan: raih gelar S.Pd. sambil tetap beraktivitas.',
   image: 'images/hero-person-900.webp',
-  imageSrcSet: 'images/hero-person-480.webp 480w, /images/hero-person-900.webp 800w',
+  imageSrcSet: 'images/hero-person-480.webp 480w, images/hero-person-900.webp 800w',
   imageAlt:
     'Ilustrasi mahasiswa berpakaian putih memegang tumpukan buku — Kuliah Islam Abu Dzar',
 }

@@ -1547,6 +1547,30 @@ p {
     grid-template-columns: 1fr;
   }
 
+  .hero {
+    padding: 44px 0 54px;
+  }
+
+  .hero-grid {
+    gap: 28px;
+  }
+
+  .hero-visual {
+    margin-top: 4px;
+  }
+
+  .hero-visual .poster {
+    width: min(100%, 260px);
+    border-width: 5px;
+  }
+
+  .hero-visual .ornament {
+    width: 92px;
+    right: 6px;
+    bottom: -14px;
+    overflow: hidden;
+  }
+
   .flyer-strip .actions {
     margin-left: 0;
     width: 100%;
