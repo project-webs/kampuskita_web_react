@@ -446,6 +446,7 @@ p {
 
 .hero-visual .poster {
   width: min(100%, 360px);
+  height: auto;
   border-radius: 26px;
   box-shadow: var(--shadow);
   border: 6px solid #fff;
