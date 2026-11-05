@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://project-webs.github.io/kampuskita_web_react/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
